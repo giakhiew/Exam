@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\IT\\Code\\code_C\u002B\u002B\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{442A2E23-2817-4B77-8679-017EE4F37682}|TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.vcxproj|D:\\IT\\Code\\code_C\u002B\u002B\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{442A2E23-2817-4B77-8679-017EE4F37682}|TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.vcxproj|solutionrelative:TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442A2E23-2817-4B77-8679-017EE4F37682}|TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.vcxproj|D:\\IT\\Code\\code_C\u002B\u002B\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{442A2E23-2817-4B77-8679-017EE4F37682}|TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.vcxproj|solutionrelative:TIN_HOC_TRE_VL\\output.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{442A2E23-2817-4B77-8679-017EE4F37682}|TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.vcxproj|D:\\IT\\Code\\code_C\u002B\u002B\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{442A2E23-2817-4B77-8679-017EE4F37682}|TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.vcxproj|solutionrelative:TIN_HOC_TRE_VL\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TIN_HOC_TRE_VL.cpp",
+              "DocumentMoniker": "D:\\IT\\Code\\code_C\u002B\u002B\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.cpp",
+              "RelativeDocumentMoniker": "TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.cpp",
+              "ToolTip": "D:\\IT\\Code\\code_C\u002B\u002B\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.cpp",
+              "RelativeToolTip": "TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL.cpp",
+              "ViewState": "AgIAAN4AAAAAAAAAAAAAAPsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-01T09:59:15.71Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "output.txt",
+              "DocumentMoniker": "D:\\IT\\Code\\code_C\u002B\u002B\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\output.txt",
+              "RelativeDocumentMoniker": "TIN_HOC_TRE_VL\\output.txt",
+              "ToolTip": "D:\\IT\\Code\\code_C\u002B\u002B\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\output.txt",
+              "RelativeToolTip": "TIN_HOC_TRE_VL\\output.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-01T13:26:55.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "input.txt",
+              "DocumentMoniker": "D:\\IT\\Code\\code_C\u002B\u002B\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\input.txt",
+              "RelativeDocumentMoniker": "TIN_HOC_TRE_VL\\input.txt",
+              "ToolTip": "D:\\IT\\Code\\code_C\u002B\u002B\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\TIN_HOC_TRE_VL\\input.txt",
+              "RelativeToolTip": "TIN_HOC_TRE_VL\\input.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-07-01T13:21:15.509Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

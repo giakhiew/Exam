@@ -1,0 +1,4 @@
+﻿  TIN_HOC_TRE_VL.cpp
+D:\IT\Code\code_C++\TIN_HOC_TRE_VL\TIN_HOC_TRE_VL\TIN_HOC_TRE_VL\TIN_HOC_TRE_VL.cpp(108,12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\IT\Code\code_C++\TIN_HOC_TRE_VL\TIN_HOC_TRE_VL\TIN_HOC_TRE_VL\TIN_HOC_TRE_VL.cpp(126,11): warning C4101: 'reverse': unreferenced local variable
+  TIN_HOC_TRE_VL.vcxproj -> D:\IT\Code\code_C++\TIN_HOC_TRE_VL\TIN_HOC_TRE_VL\x64\Debug\TIN_HOC_TRE_VL.exe
