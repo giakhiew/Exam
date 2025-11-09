@@ -1,2 +1,4 @@
 ﻿  BENTRE_2023.cpp
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2023\BENTRE_2023.cpp(31,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2023\BENTRE_2023.cpp(31,42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
   BENTRE_2023.vcxproj -> D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2023\x64\Debug\BENTRE_2023.exe

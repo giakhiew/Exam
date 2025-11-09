@@ -5,6 +5,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{AB7D1DE2-0544-49D5-BF7C-A8FA9E1A9297}|BENTRE_2023.vcxproj|D:\\GiaKhiem\\Exam\\HSG_TINH\\BENTRE_2023\\BENTRE_2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{AB7D1DE2-0544-49D5-BF7C-A8FA9E1A9297}|BENTRE_2023.vcxproj|solutionrelative:BENTRE_2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7D1DE2-0544-49D5-BF7C-A8FA9E1A9297}|BENTRE_2023.vcxproj|D:\\GiaKhiem\\Exam\\HSG_TINH\\BENTRE_2023\\in.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AB7D1DE2-0544-49D5-BF7C-A8FA9E1A9297}|BENTRE_2023.vcxproj|solutionrelative:in.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB7D1DE2-0544-49D5-BF7C-A8FA9E1A9297}|BENTRE_2023.vcxproj|D:\\GiaKhiem\\Exam\\HSG_TINH\\BENTRE_2023\\out.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{AB7D1DE2-0544-49D5-BF7C-A8FA9E1A9297}|BENTRE_2023.vcxproj|solutionrelative:out.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "out.txt",
+              "DocumentMoniker": "D:\\GiaKhiem\\Exam\\HSG_TINH\\BENTRE_2023\\out.txt",
+              "RelativeDocumentMoniker": "out.txt",
+              "ToolTip": "D:\\GiaKhiem\\Exam\\HSG_TINH\\BENTRE_2023\\out.txt",
+              "RelativeToolTip": "out.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-09T07:40:17.782Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "in.txt",
+              "DocumentMoniker": "D:\\GiaKhiem\\Exam\\HSG_TINH\\BENTRE_2023\\in.txt",
+              "RelativeDocumentMoniker": "in.txt",
+              "ToolTip": "D:\\GiaKhiem\\Exam\\HSG_TINH\\BENTRE_2023\\in.txt",
+              "RelativeToolTip": "in.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-11-09T08:28:00.49Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +59,7 @@
               "RelativeDocumentMoniker": "BENTRE_2023.cpp",
               "ToolTip": "D:\\GiaKhiem\\Exam\\HSG_TINH\\BENTRE_2023\\BENTRE_2023.cpp",
               "RelativeToolTip": "BENTRE_2023.cpp",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAACYAAAARAAAA",
+              "ViewState": "AQIAADsAAAAAAAAAAAAmwFYAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-25T08:36:42.257Z",
               "EditorCaption": ""

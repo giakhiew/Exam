@@ -1,51 +1,111 @@
 #include <iostream>
 #include <vector>
 #include <map>
+#include <fstream>
+#include <string>
 using namespace std;
 
-int n;
-vector<int> arr;
+#define pb push_back
 
-void init(vector<int>& arr) {
+int n;
+vector<int> arr, res;
+
+void init(vector<int> &arr) {
     for (int i = 0; i < n; i++) {
         int tam;
         cin >> tam;
-        arr.push_back(tam);
+        arr.pb(tam);
     }
 }
+
 //23990
 //24089
-void Bai1(int n, vector<int> arr) {
-    for (int i = 0; i < 12; i += 2) cout << arr[i] << " ";
-    for (int i = 11; i >= 1; i -= 2) cout << arr[i] << " ";
-    cout << endl;
-    map<int, int> m;
-    for (auto item : arr) m[item]++;
-    cout << m.size();
-}
-
-int resSum(vector<int> arr) {
-    int sum = 0;
-    for (auto item : arr) sum += item;
-    return sum;
-}
-
-void Bai2(int n, vector<int> arr) {
-    int sum = 0, res = 0, i = n - 1;
-    for (auto item : arr) sum += item;
-    while (i >= 0) {
-        if (arr[i] < 10) arr[i]++;
+void Bai1() {
+    ifstream inFile("in.txt");
+    string tmp;
+    getline(inFile, tmp);
+    int n = stoi(tmp);
+    ofstream outFile("out.txt");
+    string line;
+    while (getline(inFile, line)) {
+        int found = line.find(' '), Size = line.size();
+        if (found == 0) {
+            string tmp1;
+            tmp1.append(line, 1, Size - 1);
+            int i1 = stoi(tmp1);
+            arr.pb(i1);
+        }
         else {
-            arr[i] = 0;
-            j--;
+            string tmp1, tmp2;
+            tmp1 = line.substr(0, found);
+            tmp2 = line.substr(found + 1, found);
+            int i1 = stoi(tmp1);
+            int i2 = stoi(tmp2);
+            arr.pb(i1);
+            arr.pb(i2);
         }
     }
+    inFile.close();
+    for (int i = 0; i < n; i += 2) outFile << arr[i] << " ";
+    for (int i = n - 1; i >= 1; i -= 2) outFile << arr[i] << " ";
+    outFile << endl;
+    map<int, int> m;
+    for (auto item : arr) m[item]++;
+    outFile << m.size();
+    outFile.close();
 }
 
-int main()
-{
+void Bai2() {
     cin >> n;
     init(arr);
-    Bai1(n, arr);
+    res = arr;
+    int sum = 0, sumtmp = 0;
+    for (auto item : arr) sum += item;
+    if (res[0] < 9 && res[1] == 9) {
+        res[1] = 0;
+        res[0]++;
+    }
+    else if (res[0] < 9 && res[1] < 9) {
+        res[1]++;
+    }
+    else if (res[0] == 9) {
+        cout << 0;
+        return;
+    }
+    sumtmp = sum - res[0] - res[1];
+    int i = n - 1;
+    while (i >= 2) {
+        if (sumtmp >= 9) {
+            res[i--] = 9;
+            sumtmp -= 9;
+        }
+        else {
+            res[i--] = sumtmp;
+            sumtmp = 0;
+        }
+    }
+    cout << 1;
+    for (auto item : res) cout << item;
+}
+
+//void xuLyHaiSoDau() {
+//    res = arr;
+//    if (res[0] < 9 && res[1] == 9) {
+//        res[1] = 0;
+//        res[0]++;
+//    }
+//    else if (res[0] < 9 && res[1] < 9) {
+//        res[1]++;
+//    }
+//    else if (res[0] == 9) {
+//        cout << 0;
+//        return;
+//    }
+//}
+
+//23999 = 32
+int main()
+{
+    Bai2();
     return 0;
 }
