@@ -2,22 +2,15 @@
 #include <math.h>
  
 using namespace std;
- 
-int N;
- 
-string a[100009];
+
+void num_to_binary(int n) {
+    char tam;
+    string str;
+    
+    tam = n % 2;
+	cout << tam;
+}
  
 int main(){
-    cin >> N;
-    int n = 2;
-    a[0] = "0";
-    a[1] = "1";
-    int k = 0;
-    while (a[k].length() < N){
-        a[n++] = a[k] + "0";
-        a[n++] = a[k] + "1";
-        k++;
-    }
-    for (int i = k; i < n; i++)
-        cout << a[i] << endl;
+    num_to_binary(10);
 }

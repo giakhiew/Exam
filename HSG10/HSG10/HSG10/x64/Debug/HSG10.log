@@ -1,0 +1,4 @@
+﻿  HSG10.cpp
+D:\IT\Code\code_C++\Exam\HSG10\HSG10\HSG10\HSG10.cpp(11,17): warning C4244: 'initializing': conversion from 'double' to '__int64', possible loss of data
+D:\IT\Code\code_C++\Exam\HSG10\HSG10\HSG10\HSG10.cpp(44,9): warning C4101: 'x': unreferenced local variable
+  HSG10.vcxproj -> D:\IT\Code\code_C++\Exam\HSG10\HSG10\x64\Debug\HSG10.exe
