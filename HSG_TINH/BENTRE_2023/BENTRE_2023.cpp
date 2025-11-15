@@ -55,26 +55,40 @@ void Bai1() {
     outFile.close();
 }
 
+void check9(int &x) {
+    int Size = res.size() - 2, check = 0;//0 1 2 3
+    for (int i = Size; i >= 1; i--) {
+        if (res[i] >= 9) {
+            res[i] = 0;
+            res[i - 1]++;
+            check = 1;
+        }
+        else {
+            if (check == 0) res[i]++;
+            x = i;
+            return;
+        }
+    }
+}
+
 void Bai2() {
     cin >> n;
     init(arr);
     res = arr;
-    int sum = 0, sumtmp = 0;
+    int sum = 0, index = 0;
     for (auto item : arr) sum += item;
-    if (res[0] < 9 && res[1] == 9) {
-        res[1] = 0;
-        res[0]++;
-    }
-    else if (res[0] < 9 && res[1] < 9) {
-        res[1]++;
-    }
-    else if (res[0] == 9) {
+    int sumtmp = sum;
+
+    check9(index);
+    if (res[0] > 9) {
         cout << 0;
         return;
     }
-    sumtmp = sum - res[0] - res[1];
+
+    for (int i = 0; i <= index; i++) sumtmp -= res[i];
+
     int i = n - 1;
-    while (i >= 2) {
+    while (i > index) {
         if (sumtmp >= 9) {
             res[i--] = 9;
             sumtmp -= 9;
@@ -85,7 +99,8 @@ void Bai2() {
         }
     }
     cout << 1;
-    for (auto item : res) cout << item;
+    cout << endl;
+    for (auto item : res) cout << item << " ";
 }
 
 //void xuLyHaiSoDau() {
@@ -107,5 +122,6 @@ void Bai2() {
 int main()
 {
     Bai2();
+   
     return 0;
 }
