@@ -1,0 +1,44 @@
+﻿  BENTRE_2022.cpp
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(19,23): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(19,23): warning C4244:         with
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(19,23): warning C4244:         [
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(19,23): warning C4244:             _Ty=__int64
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(19,23): warning C4244:         ]
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(21,18): warning C4244: '-=': conversion from '_Ty' to 'int', possible loss of data
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(21,18): warning C4244:         with
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(21,18): warning C4244:         [
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(21,18): warning C4244:             _Ty=__int64
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(21,18): warning C4244:         ]
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(29,26): warning C4244: '+=': conversion from '_Ty' to 'int', possible loss of data
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(29,26): warning C4244:         with
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(29,26): warning C4244:         [
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(29,26): warning C4244:             _Ty=__int64
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(29,26): warning C4244:         ]
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(30,26): warning C4244: '-=': conversion from '_Ty' to 'int', possible loss of data
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(30,26): warning C4244:         with
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(30,26): warning C4244:         [
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(30,26): warning C4244:             _Ty=__int64
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(30,26): warning C4244:         ]
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(38,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(39,13): warning C4244: 'initializing': conversion from '_Ty' to 'int', possible loss of data
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(39,13): warning C4244:         with
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(39,13): warning C4244:         [
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(39,13): warning C4244:             _Ty=__int64
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(39,13): warning C4244:         ]
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(42,27): warning C4244: '+=': conversion from '_Ty' to 'int', possible loss of data
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(42,27): warning C4244:         with
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(42,27): warning C4244:         [
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(42,27): warning C4244:             _Ty=__int64
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(42,27): warning C4244:         ]
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(51,24): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(51,24): warning C4244:         with
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(51,24): warning C4244:         [
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(51,24): warning C4244:             _Ty=__int64
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(51,24): warning C4244:         ]
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(57,24): warning C4244: '=': conversion from '_Ty' to 'int', possible loss of data
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(57,24): warning C4244:         with
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(57,24): warning C4244:         [
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(57,24): warning C4244:             _Ty=__int64
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(57,24): warning C4244:         ]
+D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\BENTRE_2022.cpp(67,13): warning C4244: 'argument': conversion from '__int64' to 'int', possible loss of data
+  BENTRE_2022.vcxproj -> D:\GiaKhiem\Exam\HSG_TINH\BENTRE_2022\x64\Debug\BENTRE_2022.exe
