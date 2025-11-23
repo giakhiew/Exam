@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GiaKhiem\\Exam\\HSG_TINH\\BINHTHUAN_2122\\BINHTHUAN_2122\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E1C320-B0E6-4C04-BC5A-61439B770E1F}|BINHTHUAN_2122.vcxproj|D:\\GiaKhiem\\Exam\\HSG_TINH\\BINHTHUAN_2122\\BINHTHUAN_2122\\BINHTHUAN_2122.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E8E1C320-B0E6-4C04-BC5A-61439B770E1F}|BINHTHUAN_2122.vcxproj|solutionrelative:BINHTHUAN_2122.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BINHTHUAN_2122.cpp",
+              "DocumentMoniker": "D:\\GiaKhiem\\Exam\\HSG_TINH\\BINHTHUAN_2122\\BINHTHUAN_2122\\BINHTHUAN_2122.cpp",
+              "RelativeDocumentMoniker": "BINHTHUAN_2122.cpp",
+              "ToolTip": "D:\\GiaKhiem\\Exam\\HSG_TINH\\BINHTHUAN_2122\\BINHTHUAN_2122\\BINHTHUAN_2122.cpp",
+              "RelativeToolTip": "BINHTHUAN_2122.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-23T09:51:59.058Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
