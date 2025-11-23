@@ -1,0 +1,3 @@
+﻿  Training.cpp
+D:\GiaKhiem\Training\Training\Training.cpp(36,21): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Training.vcxproj -> D:\GiaKhiem\Training\Training\x64\Debug\Training.exe
