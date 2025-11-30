@@ -60,50 +60,21 @@ void Bai1() {
 void Bai2() {
 	cin >> n >> P >> L;
 	init2(w, v);
-	int i = 0, j = 0, w_tmp = 0, check = 0;
+	int i = 0, j = 0;
 	double res = 0;
 	while (i < n && j <= n) {
-		int v_tmp = INT_MAX;
-		w_tmp += w[j];
-		if (w_tmp <= P) ++j;
-		else {
-			j--;
-			v_tmp = min(v_tmp, v[i]);
-			for (int k = i; k < j; k++) {
-				if (v[k] <= v[k + 1]) {
-					v_tmp = min(v_tmp, v[k]);
-					check++;
-				}
-				else {
-					break;
-				}
-			}
-			w_tmp = 0;
-			res += L / (double)v_tmp;
-			i += check;
-			i++;
-			j = i;
-			check = 0;
+		int k = i;
+		int w_tmp = w[i];
+		bool check = true;
+		while (w_tmp < P && j < n - 1 && (v[k] <= v[k + 1])) {
+			w_tmp += w[++j];
+			k++;
+			if (w_tmp > P) check = false;
 		}
-		if (j == n && i < j) {
-			j--;
-			v_tmp = min(v_tmp, v[i]);
-			for (int k = i; k < j; k++) {
-				if (v[k] <= v[k + 1]) {
-					v_tmp = min(v_tmp, v[k]);
-					check++;
-				}
-				else {
-					break;
-				}
-			}
-			w_tmp = 0;
-			res += L / (double)v_tmp;
-			i += check;
-			i++;
-			j = i;
-			check = 0;
-		}
+		if (check == false) j--;
+		res += L / (double)v[i];
+		i = j + 1;
+		j = i;
 	}
 	cout << fixed << setprecision(2) << res;
 }

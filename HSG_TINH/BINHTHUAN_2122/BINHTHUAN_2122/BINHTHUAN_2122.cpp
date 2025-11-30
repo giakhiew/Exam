@@ -1,10 +1,23 @@
 #include <iostream>
 #include <cmath>
+#include <set>
 using namespace std;
 
-void Bai1(int A, int B) {
-    int min = ((A < B) ? A : B);
-    for (int i = 1;)
+int gcd(int a, int b) {
+    if (b == 0) return a;
+    return gcd(b, a % b);
+}
+
+void Bai1(int a, int b) {
+    int res = 0;
+    int UCLN = gcd(a , b);
+    for (int i = 1; i * i <= UCLN; i++) {
+        if (UCLN % i == 0) {
+            res++;
+            if (UCLN / i != i) res++;
+        }
+    }
+    cout << res;
 }
 
 bool checkPrime(int n) {
