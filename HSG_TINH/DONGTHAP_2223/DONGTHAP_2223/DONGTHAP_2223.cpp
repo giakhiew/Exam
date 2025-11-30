@@ -2,6 +2,8 @@
 #include <cmath>
 #include <vector>
 #include <algorithm>
+#include <iomanip>
+#include <climits>
 using namespace std;
 #define pb push_back
 
@@ -58,19 +60,56 @@ void Bai1() {
 void Bai2() {
 	cin >> n >> P >> L;
 	init2(w, v);
-	int wei = w[0], tam = 0, tam1 = 0;
+	int i = 0, j = 0, w_tmp = 0, check = 0;
 	double res = 0;
-	for (int i = 0; i < n - 1; i++) {
-		if (wei + w[i + 1] > P || v[i] > v[i + 1]) {
-			p[tam].first = tam1;   
-			p[tam].second = i;
-			tam++;
+	while (i < n && j <= n) {
+		int v_tmp = INT_MAX;
+		w_tmp += w[j];
+		if (w_tmp <= P) ++j;
+		else {
+			j--;
+			v_tmp = min(v_tmp, v[i]);
+			for (int k = i; k < j; k++) {
+				if (v[k] <= v[k + 1]) {
+					v_tmp = min(v_tmp, v[k]);
+					check++;
+				}
+				else {
+					break;
+				}
+			}
+			w_tmp = 0;
+			res += L / (double)v_tmp;
+			i += check;
+			i++;
+			j = i;
+			check = 0;
+		}
+		if (j == n && i < j) {
+			j--;
+			v_tmp = min(v_tmp, v[i]);
+			for (int k = i; k < j; k++) {
+				if (v[k] <= v[k + 1]) {
+					v_tmp = min(v_tmp, v[k]);
+					check++;
+				}
+				else {
+					break;
+				}
+			}
+			w_tmp = 0;
+			res += L / (double)v_tmp;
+			i += check;
+			i++;
+			j = i;
+			check = 0;
 		}
 	}
+	cout << fixed << setprecision(2) << res;
 }
 /*6
 4 2 13 7 5 10*/
 int main() {
-	Bai1();
+	Bai2();
 	return 0;
 }
